@@ -5,5 +5,15 @@
 \label{cha:introduction}
 
 
+
+%Parrafo contexto
+Distributed systems are everywhere in today's world. Cloud computing, communications infrastructure, microservices are just a few examples of distributed computing in practice. Characteristic to these architectures is that functions permanently live on a single machine and data is mobilized between computers in order to carry out tasks that are required of the system. For example, one might have a microservice that deals with user authentication and another that handles requests based on the user's permissions. These microservices might be a single machine or many depending on the architecture, but the code that is loaded on each machine is static and is only changed when updating the system. Machines communicate can communicate in many different ways, like Rest APIs or remote procedure calls, but fundamentally only data is shared between processes.
+
+
+There are several issues directly caused by the static nature of functions in a distributed system. Shared state is undesirable and can lead to improper and unpredictable behaviours. Moreover, if you are sending vast amounts of data for an operation that doesn't require much computational power, it can be advantegous to perform the computations on the same device that has the information. This is a core principle of fog computing, an architecture that values computation on edge devices rather than in the cloud when applicable. 
+
+
+
+
 \endinput
 
