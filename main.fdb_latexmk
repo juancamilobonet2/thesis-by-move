@@ -1,39 +1,39 @@
 # Fdb version 4
-["bibtex main"] 1715556262 "main.aux" "main.bbl" "main" 1715656554 0
+["bibtex main"] 1715704735 "main.aux" "main.bbl" "main" 1715704968 0
   "./bib/local.bib" 1715111030 0 d41d8cd98f00b204e9800998ecf8427e ""
   "./bib/writing.bib" 1715111030 705 4cf39dad029d6afc4014d7dee471e856 ""
-  "abstract.aux" 1715656551 1370 6e65f3ac581409164fdb1da37151a049 "pdflatex"
-  "acknowledgements.aux" 1715656551 1388 c20170c2248f9449298d4b2a21346100 "pdflatex"
-  "acronym.aux" 1715656552 1241 a268255b1734c107010851708b894f17 "pdflatex"
-  "appendix-a.aux" 1715656551 1370 c4973381af853555d3386da0f3502164 "pdflatex"
+  "abstract.aux" 1715704964 1370 6e65f3ac581409164fdb1da37151a049 "pdflatex"
+  "acknowledgements.aux" 1715704964 1388 c20170c2248f9449298d4b2a21346100 "pdflatex"
+  "acronym.aux" 1715704965 1241 a268255b1734c107010851708b894f17 "pdflatex"
+  "appendix-a.aux" 1715704964 1370 c4973381af853555d3386da0f3502164 "pdflatex"
   "c:/texlive/2023/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1681261172 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "introduction.aux" 1715656551 1415 dfee1354782df7976de4436cfc2eaa55 "pdflatex"
-  "main.aux" 1715656552 971 f1ea0efe5f874d7c5cdeea60a6b25ee6 "pdflatex"
-  "title.aux" 1715656551 1207 9067dd366b15e4025c6027fb9594cc4c "pdflatex"
+  "introduction.aux" 1715704964 1415 7a54b08747efbbc605b2610f38af12e6 "pdflatex"
+  "main.aux" 1715704965 971 f1ea0efe5f874d7c5cdeea60a6b25ee6 "pdflatex"
+  "title.aux" 1715704964 1207 9067dd366b15e4025c6027fb9594cc4c "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["makeindex main.idx"] 1715556255 "main.idx" "main.ind" "main" 1715656554 0
-  "main.idx" 1715656550 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1715704727 "main.idx" "main.ind" "main" 1715704968 0
+  "main.idx" 1715704963 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["makeindex symbols.idx"] 1715556254 "symbols.idx" "symbols.ind" "symbols" 1715656554 0
-  "symbols.idx" 1715656550 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex symbols.idx"] 1715704727 "symbols.idx" "symbols.ind" "symbols" 1715704968 0
+  "symbols.idx" 1715704963 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "symbols.ilg"
   "symbols.ind"
   (rewritten before read)
-["pdflatex"] 1715656549 "c:/Users/juanc/Documents/8vo_semestre/tesis/thesis-by-move/main.tex" "main.pdf" "main" 1715656554 0
-  "abstract.aux" 1715656551 1370 6e65f3ac581409164fdb1da37151a049 "pdflatex"
-  "abstract.tex" 1715570587 1474 4011ca09000ddbd9a2a9d67ac7fccecd ""
-  "acknowledgements.aux" 1715656551 1388 c20170c2248f9449298d4b2a21346100 "pdflatex"
+["pdflatex"] 1715704960 "c:/Users/juanc/Documents/8vo_semestre/tesis/thesis-by-move/main.tex" "main.pdf" "main" 1715704968 0
+  "abstract.aux" 1715704964 1370 6e65f3ac581409164fdb1da37151a049 "pdflatex"
+  "abstract.tex" 1715704959 1562 19c676bee38ded4fc8df9b30267a9eff ""
+  "acknowledgements.aux" 1715704964 1388 c20170c2248f9449298d4b2a21346100 "pdflatex"
   "acknowledgements.tex" 1715111030 146 7a046fde780e5f5134628a72d94fddda ""
-  "acronym.aux" 1715656552 1241 a268255b1734c107010851708b894f17 "pdflatex"
+  "acronym.aux" 1715704965 1241 a268255b1734c107010851708b894f17 "pdflatex"
   "acronym.tex" 1715111030 279 16c87f4dbfbd2601b56c0377a8284947 ""
-  "appendix-a.aux" 1715656551 1370 c4973381af853555d3386da0f3502164 "pdflatex"
+  "appendix-a.aux" 1715704964 1370 c4973381af853555d3386da0f3502164 "pdflatex"
   "appendix-a.tex" 1715111030 82 10bd8c821dcbc6747b0a9c41eb69836e ""
   "c:/Users/juanc/Documents/8vo_semestre/tesis/thesis-by-move/main.tex" 1715111030 589 f7db7135b98b598cc31cdedc9711532c ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1681238195 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -304,17 +304,17 @@
   "chapter-titlepage.tex" 1715111030 705 9238d243ab56b72685a419690f5e1af4 ""
   "figures/Flag-logo.png" 1715111030 6294 d36e6ed3b9c8f86fb169f417ceb6152e ""
   "figures/logo_misis.pdf" 1715111030 100779 11e9310059da4b88adf5e34582567e34 ""
-  "introduction.aux" 1715656551 1415 dfee1354782df7976de4436cfc2eaa55 "pdflatex"
-  "introduction.tex" 1715656552 1593 fca0922c3b690b7e79ac38d303fc7024 ""
-  "main.aux" 1715656552 971 f1ea0efe5f874d7c5cdeea60a6b25ee6 "pdflatex"
-  "main.bbl" 1715556263 650 91dc7e13039127a5e6404c1edac5643f "bibtex main"
-  "main.ind" 1715656551 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.lof" 1715656552 220 932389c10d505a5e6d8c354a70a5a585 "pdflatex"
+  "introduction.aux" 1715704964 1415 7a54b08747efbbc605b2610f38af12e6 "pdflatex"
+  "introduction.tex" 1715701771 2081 80e1cd0cdc00c5c0e81e7538b187e6ab ""
+  "main.aux" 1715704965 971 f1ea0efe5f874d7c5cdeea60a6b25ee6 "pdflatex"
+  "main.bbl" 1715704736 650 91dc7e13039127a5e6404c1edac5643f "bibtex main"
+  "main.ind" 1715704964 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
+  "main.lof" 1715704965 220 932389c10d505a5e6d8c354a70a5a585 "pdflatex"
   "main.tex" 1715111030 589 f7db7135b98b598cc31cdedc9711532c ""
-  "main.toc" 1715656552 541 9dd9efb36aa772975b45aa95fa7aa602 "pdflatex"
+  "main.toc" 1715704965 541 9dd9efb36aa772975b45aa95fa7aa602 "pdflatex"
   "misis.cls" 1715111030 20872 4b668b01fbb7da83bba045e18ee5413d ""
-  "symbols.ind" 1715656552 0 d41d8cd98f00b204e9800998ecf8427e "makeindex symbols.idx"
-  "title.aux" 1715656551 1207 9067dd366b15e4025c6027fb9594cc4c "pdflatex"
+  "symbols.ind" 1715704965 0 d41d8cd98f00b204e9800998ecf8427e "makeindex symbols.idx"
+  "title.aux" 1715704964 1207 9067dd366b15e4025c6027fb9594cc4c "pdflatex"
   "title.tex" 1715111030 2514 458c8e4a747421024f1e02ea9a371458 ""
   (generated)
   "abstract.aux"
