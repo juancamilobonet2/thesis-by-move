@@ -1,3 +1,13 @@
 
 \chapter{Conclusion}
 \label{cha:Conclusion}
+
+As expected, after reaching a certain threshold of system load we can appreciate reduced network load when using our proposed solution rather than a traditional approach. However, this is only one facet of distributed systems that can be expected to improve with our approach. As mentioned in previous sections, we can expect a decrease in sensitive information traveling across the network, less shared mutable state compared to other semantic approaches, and reduced computation on cloud resources. Let's consider some applications of this solution.
+
+Fog computing is a type of cloud computing architecture where some tasks are distributed to edge devices in order to decrease latency and network congestion \cite{alma991005271676907681}. Our by-move solution could help in order to dynamically move functions to edge devices based on where they are needed. Moreover, this can be used to move tasks to devices where computation is less expensive.
+
+Another possible application has to do with the internet of things. A characteristic of some internet of things systems is the presence of many sensors that can generate a large amount of data\cite{alma991005271676907681}. Our solution could be used in order to delegate some amount of computation to edge devices. This would again reduce network congestion and reduce the amount of computation done on cloud resources.
+
+We must also highlight some limitations of our solution. On one hand, there is a latency overhead related to repeated compilation, meaning that this solution might not be apt for applications where speed is an important factor. Furthermore, as implemented, our solution only allows for one instance of a function to be alive amongst the entire system. There might be cases where this is undesirable, and although technically possible to have more than one instance amongst many devices, we did not consider this situation.
+
+For future work, we could consider how we can adapt our solution to work with more than one instance of a function living in the distributed system. Another possible avenue could be a formal, theoretical validation using a tool such as Robin Milner's $\pi$-calculus \cite{MILNER19921}. On the other hand, it would be great to see our by-move solution more rigorously tested in a larger, more complex system.
