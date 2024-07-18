@@ -2,13 +2,13 @@
 \chapter{Validation and Results}
 \label{cha:validationresults}
 
-To validate our solution, we implemented a simple distributed application using a traditional approach and an approach that makes use of our solution, which we shall call the by-move solution. This application would be based on a hypothetical bank using a microservices-like architecture. In the following figure we can see an overview of the system.
+To validate our solution, we implemented a simple distributed application using a traditional approach and an approach that makes use of our solution, which we shall call the by-move solution. The application is based on a banking system using a microservices-like architecture. In the following figure we can see an overview of the system.
 \begin{figure}[h]
 \includegraphics[scale=0.60]{figures/validation.png}
 \centering
 \end{figure}
 
-In practice, each computer is a Raspberry Pi 4 Model B running Ubuntu Server 22.04 and connected to the same Wi-Fi network. Each device is an Erlang node running only the code that pertains to their specific service. All communication is done through Elixir/Erlang primitives for mobility.
+In practice, each node is a Raspberry Pi 4 Model B running Ubuntu Server 22.04 and connected to the same Wi-Fi network. Each device is an Erlang node running only the code that pertains to their specific service. All communication is done through Elixir/Erlang primitives for mobility.
 
 Each node has specific responsibilities. The database service handles all persistent data and is the only node whose implementation remains the same in both implementations of the application. It is implemented as a GenServer and supports reading and changing information about users and bank balances. The authentication node basically only has one function that verifies whether a username and password pair is correct. The users node has a function that returns a user's bank balances. Finally, the transactions node has functions for both withdrawing and depositing a certain amount of money into a bank account. In the traditional approach, each of these nodes runs a GenServer that calls their internal functions, while the by-move approach simply lets these functions travel between the nodes.
 
@@ -51,5 +51,5 @@ Three tests were done, one where each action was performed once, 100 times, and 
    }
 \end{table}
 
-We can appreciate that by 1000 actions, the by-move implementation has an edge over the standard implementation.
+We observe that by 1000 actions, the by-move implementation has an edge over the standard implementation.
 
